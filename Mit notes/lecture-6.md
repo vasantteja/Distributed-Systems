@@ -32,8 +32,13 @@ c2---|
      |
 ```
 ==> Imagine a scenario, where client can talk to both the servers.
+
 ==> If C1 talks to S1 and cannot talk to S2.
+
 ==> Similarly C2 talks to S2 and cannot talk to S1.
+
 ==> If you wait till both respond you're not fault tolerant and you just speak with onbe and neglect other then you're not correct.
+
 ==> In the above scenario, the client1 speaks only with server1 and server2 is completely oblivious to it and client2 speaks only wioth server2 and not server1.
+
 ==> This way, there is a possibility one single resource can be manipulated by both clients, but the servers don't know about it.
