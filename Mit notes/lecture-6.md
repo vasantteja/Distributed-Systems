@@ -23,13 +23,14 @@ It's a single point of failuire when this breaksup.
 
 ## Split Brain
 
+```
      |
 c1---|
      |----s1
 c2---|
      |----s2
      |
-
+```
 ==> Imagine a scenario, where client can talk to both the servers.
 ==> If C1 talks to S1 and cannot talk to S2.
 ==> Similarly C2 talks to S2 and cannot talk to S1.
